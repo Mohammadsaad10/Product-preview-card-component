@@ -5,12 +5,11 @@
 body{
   background-color: hsl(30, 38%, 92%);
   font-family: 'Montserrat',sans-serif;
-  
+  min-height:100vh;
+  display:grid;
+  place-items:center;
 }
 
-main{
-  margin-top: 10%;
-}
 .main{
   display: flex;
   flex-direction: row;
@@ -95,7 +94,8 @@ main{
 }
 
 #attribution{
-  margin-top: 13%;
+  position:fixed;
+  bottom:1em;
   font-size: 15px; 
   text-align: center; 
 }
