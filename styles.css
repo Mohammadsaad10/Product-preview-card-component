@@ -112,12 +112,14 @@ body{
     height: 260px;
     width: 95%;
     border-bottom-left-radius: 0;
-    border-top-right-radius: 9px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
   }
 
   .container-2{
     border-top-right-radius: 0;
-    border-bottom-left-radius: 9px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
     width: 95%;
     height:400px ;
   }
